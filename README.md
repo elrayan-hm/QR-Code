@@ -4,6 +4,7 @@ This project is a Python-based QR code generator that encodes custom data into Q
 ## This project consists of two Python scripts:
 
 **gen.py**
-
 * A QR code generator that creates an image file containing custom data. It uses the qrcode library to encode provided data into a QR code image.
-check.py: A data reader that scans a QR code image and extracts the embedded data using the pyzbar library.
+  
+**check.py**
+* A data reader that scans a QR code image and extracts the embedded data using the pyzbar library.
